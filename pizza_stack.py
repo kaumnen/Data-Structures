@@ -1,7 +1,7 @@
 from node import Node
 
 class Stack:
-  def __init__(self, limit=1000):
+  def __init__(self, limit=1001):
     self.top_item = None
     self.size = 0
     self.limit = limit
